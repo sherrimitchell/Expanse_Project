@@ -1,0 +1,2 @@
+class DataBreach < ApplicationRecord
+end
