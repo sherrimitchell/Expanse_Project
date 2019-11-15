@@ -10,9 +10,12 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_10_23_231804) do
+ActiveRecord::Schema.define(version: 2019_10_27_002748) do
 
-  create_table "data_breaches", force: :cascade do |t|
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
+  create_table "breaches", force: :cascade do |t|
     t.string "number"
     t.string "name_of_covered_entity"
     t.string "state"

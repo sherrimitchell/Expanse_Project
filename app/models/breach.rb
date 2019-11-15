@@ -1,0 +1,2 @@
+class Breach < ApplicationRecord
+end

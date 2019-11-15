@@ -15,5 +15,5 @@ end
 data = SmarterCSV.process(Rails.root.join('lib', 'seeds', 'cyber_security_breaches.csv'))
 
 	data.each do |row|
-		DataBreach.create!(row)
+		Breach.create!(row)
 	end

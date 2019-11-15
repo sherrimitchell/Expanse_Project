@@ -2,11 +2,11 @@
 
 Coding Challenge
 
-Today’s coding challenge will be to build a website where the provided data can be searched and visualized within the website.  The goal is to see a visual representation of the included data.  Below is a sample site for reference.
+This project is a coding challenge for Coding While Black. The challenge is to build a website where the provided data can be searched and visualized within the website.  The goal is to see a visual representation of the included data.  Below is a sample site for reference.
 
 https://informationisbeautiful.net/visualizations/worlds-biggest-data-breaches-hacks/
 
-Example
+## Example
 
 
 
@@ -25,3 +25,19 @@ https://www.gatsbyjs.org/
 https://d3js.org/
 https://rawgraphs.io/
 https://www.fusioncharts.com/
+
+## My Implementation
+
+The user can view the data by the following critera:
+- Breaches by Type
+	- Total Number of Breaches
+- Breaches by State 
+	- Top Ten States with Most Number of Breaches
+- Total Individuals Affected by Year
+
+
+The site is built using Ruby on Rails 5.2.3 and uses:
+- Postgres
+- Chartkick
+- Hightop
+- Bootstrap Rails

@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class DataBreachTest < ActiveSupport::TestCase
+class BreachTest < ActiveSupport::TestCase
   # test "the truth" do
   #   assert true
   # end
